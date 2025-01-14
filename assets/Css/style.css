@@ -228,6 +228,7 @@ header {
     width: 40px;
     height: 40px;
     margin-right: 5px;
+    cursor: pointer;
 }
 .desativado{
     display: none;
@@ -245,9 +246,9 @@ header {
 }
 .controlSelecionado{
     border:1px solid rgb(227, 224, 224);
-    -webkit-box-shadow: 0px 0px 40px 10px rgba(250,250,250,0.84);
--moz-box-shadow: 0px 0px 40px 10px rgba(250,250,250,0.84);
-box-shadow: 0px 0px 40px 10px rgba(250,250,250,0.84);
+    -webkit-box-shadow: 0px 0px 40px 10px rgba(195, 195, 195, 0.84);
+-moz-box-shadow: 0px 0px 40px 10px rgba(195, 195, 195, 0.84);
+box-shadow: 0px 0px 40px 10px rgba(195, 195, 195, 0.84);
 }
 .card-container {
     width: 80%;
@@ -558,6 +559,15 @@ flex-flow: column nowrap;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.instagranIcon{
+    width: 30px;
+    height: 25px;
+    margin-right: 3px;
+}
+.instagranLink{
+    text-decoration: none;
+    color: #000000;
 }
 
 #whatsappButton i {

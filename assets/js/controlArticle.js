@@ -43,7 +43,7 @@ $(document).ready(function () {
         intervalo = setInterval(() => {
             index = (index + 1) % artigos.length; // Alterna o índice
             mostrarInfo();
-        }, 5000); // Intervalo de 5 segundos
+        }, 15000); // Intervalo de 15 segundos
     }
 
     // Função para reiniciar o temporizador após interação manual
